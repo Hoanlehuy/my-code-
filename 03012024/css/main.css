@@ -1,0 +1,6 @@
+main{}
+@import url('mainLeft.css');
+@import url('mainRight.css');
+.product{}
+.product__img{}
+.h4{}
