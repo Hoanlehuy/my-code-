@@ -1,6 +1,15 @@
-main{}
 @import url('mainLeft.css');
 @import url('mainRight.css');
-.product{}
-.product__img{}
-.h4{}
+main{
+    background-color: white;
+}
+
+.container__left{
+    width: 250px;
+    margin-left: 0;
+    margin-right: 21px;
+}
+.container__right{
+    width: 828px;
+    margin-right: 0;
+}

@@ -21,8 +21,8 @@ nav{
     padding: 18px;
 }
 .nav__menu ul li a:hover{
-    background-color:#696969;
-    
+    background-color:#696969;   
+     
 }
 .nav__menu ul li.active a{
     background-color:#696969;

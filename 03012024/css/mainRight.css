@@ -1,14 +1,57 @@
-.main__right{}
-aside{}
-.aside__slide{}
-.aside__conten{}
-.aside__conten h1{}
-.aside__conten p{}
-span{}
-.aside__productHome{}
-.asideProductHome__title{}
-.asideproductHomeTitle__icon{}
-.asideproductHomeTitle__heading{}
-.asideproductHomeTitle__heading h3{}
-.asideProductHome__list{}
+.main__right {}
 
+aside {}
+
+.aside__slide {
+    background-image: url("../img/Mạnh\ Cường_01.jpg");
+    background-size: cover;
+    height: 413px;
+}
+
+.aside__conten {}
+
+.aside__conten h1 {
+    color: #fe2121;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.aside__conten p {
+    color: #464a50;
+    font-size: 15px;
+}
+
+.aside__conten p a {
+    color: #0563ff;
+}
+
+.aside__conten p span {
+    color: #fe2121;
+}
+
+.aside__home {}
+
+.asideHome__title {}
+
+.asideHome__title h3 {
+    color: #f2f1f1;
+    font-size: 16px;
+}
+.asideHome__list{}
+
+.row{
+    margin-top: 30px;
+}
+.row product{
+    margin-right: 20px;
+    background-color: #464a50;
+}
+
+.row__product:last-child{
+    margin-right: 0;
+}
+
+.row__product:nth-child(3){
+    margin-right: 0;
+}
