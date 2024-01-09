@@ -1,21 +1,146 @@
-footer{}
-.footer_top{}
-.footerTop__info{}
-.footerTop__info h3{}
-.footerTop__info p{}
-.footerTop__info ul{}
-.footerTop__info ul li{}
-span{}
-.footerTop__siteMap{}
-.footerTop__siteMap h3{}
-.footerTop__siteMap ul{}
-.footerTop__siteMap ul li{}
-.footerTop__product{}
-.footerTop__product h3{}
-.footerTop__product ul{}
-.footerTop__product ul li{}
-.footerTop__fanpage{}
-.footerTopFanpage__img{}
-.footer__bot{}
-.footerBot__left{}
-.footerBoot__right{}
+footer {
+    margin-top: 46px;
+}
+
+.footer__top {
+    background-color: #222326;
+    padding: 45px 100px 0px 100px;
+    display:grid;
+    grid-template-columns:35% 20% 20% 25% ;
+    gap: 20px;
+}
+
+.footerTop__info {
+    width: 65%
+}
+
+.footerTop__info h3 {
+    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.footerTop__info p {
+    font-size: 13px;
+    color: white;
+}
+
+#sm a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.footerTop__info ul {
+    padding-left: 0;
+}
+
+.footerTop__info ul li {
+    list-style: none;
+    color: white;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.footerTop__info ul li span {
+    color: #fbca00;
+    font-size: 20px;
+
+}
+
+.footerTop__siteMap {
+
+}
+
+.footerTop__siteMap h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px ;
+    text-align: left;
+}
+
+.footerTop__siteMap ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footerTop__siteMap ul li {
+    color: #fbca00;
+    text-align:left;
+    margin-bottom: 37px;
+}
+
+.footerTop__siteMap ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footerTop__product {
+
+}
+
+.footerTop__product h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px ;
+    text-align: left;
+}
+
+.footerTop__product ul {
+    margin: 0;
+    padding: 0;
+}
+
+.footerTop__product ul li {
+    color: #fbca00;
+    text-align:left;
+    margin-bottom: 37px;
+}
+
+.footerTop__product ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.footerTop__fanpage {
+
+}
+
+.footerTop__fanpage h3{
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+    margin-bottom: 30px ;
+    text-align: left;
+}
+
+.footerTopFanpage__img {}
+
+
+.footer__bot {
+    background-color: #1a1c1f;
+    padding:25px 0 25px 105px;
+    
+}
+
+.footerBot__left {
+    margin-left: 0;
+    color: white;
+    font-size: 14px;
+    display:inline-flexbox;
+}
+
+.footerBoot__right {
+    text-align: right;
+    margin-right: 0;
+    color: white;
+    font-size: 14px;
+}

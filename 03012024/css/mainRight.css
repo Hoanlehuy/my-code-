@@ -1,57 +1,68 @@
 .main__right {}
 
-aside {}
-
-.aside__slide {
+.product__slide {
     background-image: url("../img/Mạnh\ Cường_01.jpg");
     background-size: cover;
     height: 413px;
 }
 
-.aside__conten {}
+.product__conten {}
 
-.aside__conten h1 {
+.product__conten h1 {
     color: #fe2121;
     text-transform: uppercase;
     text-align: center;
     font-size: 30px;
 }
 
-.aside__conten p {
+.product__conten p {
     color: #464a50;
     font-size: 15px;
 }
 
-.aside__conten p a {
+.product__conten p a {
     color: #0563ff;
 }
 
-.aside__conten p span {
+.product__conten p span {
     color: #fe2121;
 }
 
-.aside__home {}
+.product__home {}
 
-.asideHome__title {}
+.productHome__title {}
 
-.asideHome__title h3 {
+.productHome__title h3 {
     color: #f2f1f1;
     font-size: 16px;
 }
-.asideHome__list{}
 
-.row{
+.productHome__list {
     margin-top: 30px;
-}
-.row product{
-    margin-right: 20px;
-    background-color: #464a50;
-}
-
-.row__product:last-child{
-    margin-right: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 20px;
 }
 
-.row__product:nth-child(3){
-    margin-right: 0;
+.productHomeList__item {}
+
+.productHomeListItem__block {
+    background-color: #222326;
+    padding-bottom: 10px;
+}
+
+.productHomeList__item a {
+    text-decoration: none;
+}
+
+.productHomeList__item a h4 {
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.productHomeList__item :hover {
+    background-color: #3b84b0;
 }

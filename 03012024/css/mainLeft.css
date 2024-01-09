@@ -84,8 +84,11 @@ aside {}
     background-color: #f2f1f1;
     border-bottom: 1px inset #eae5e5;
 }
-h4{
+.asideBestSeller__list h4{
     color: #424343;
     font-size: 14px;
     text-transform: uppercase;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    margin-bottom: 15px;
 }
