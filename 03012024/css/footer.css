@@ -42,12 +42,14 @@ footer {
     color: white;
     font-size: 15px;
     margin-bottom: 30px;
+    display: grid;
+    grid-template-columns: 10% 90%;
 }
 
 .footerTop__info ul li span {
     color: #fbca00;
     font-size: 20px;
-
+    text-align: center;
 }
 
 .footerTop__siteMap {
@@ -127,20 +129,19 @@ footer {
 
 .footer__bot {
     background-color: #1a1c1f;
-    padding:25px 0 25px 105px;
-    
+    padding:25px 100px 25px 105px;
+    display: grid;
+    grid-template-columns: 75% 25%;
 }
 
 .footerBot__left {
     margin-left: 0;
     color: white;
     font-size: 14px;
-    display:inline-flexbox;
 }
 
 .footerBoot__right {
     text-align: right;
-    margin-right: 0;
     color: white;
     font-size: 14px;
 }
