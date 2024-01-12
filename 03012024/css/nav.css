@@ -11,6 +11,7 @@ nav{
 }
 .nav__menu ul li{
     list-style: none;
+    position: relative;
 }
 .nav__menu ul li a{
     color:white;
@@ -19,6 +20,7 @@ nav{
     text-transform: uppercase;
     display: block;
     padding: 18px;
+    font-family:openSansRegular ;
 }
 .nav__menu ul li a:hover{
     background-color:#696969;   
@@ -32,3 +34,28 @@ nav{
     text-align: right;
     width: 25%;
 }
+
+.nav__menu ul li ul.subMenu{
+    position: absolute;
+    display: none;
+    width: 200px;
+    background-color:#696969;
+}
+
+.nav__menu ul li ul.subMenu li{
+    
+}
+
+.nav__menu ul li ul.subMenu li a{
+    display: block;
+}
+
+.nav__menu ul li ul.subMenu li a:hover{
+    background-color:  #3b84b0;
+    color: rgb(255, 255, 255);
+}
+
+.nav__menu ul li:hover ul.subMenu {
+    display: block;
+}
+

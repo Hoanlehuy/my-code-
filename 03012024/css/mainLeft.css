@@ -21,6 +21,7 @@ aside {}
     font-size: 16px;
     text-transform: uppercase;
     color: white;
+    font-family:openSansRegular;
 }
 
 .asideCategory__list {}
@@ -44,6 +45,7 @@ aside {}
     border-top: 1px inset #eae5e5;
     padding: 10px 22px 12px;
     margin-bottom: 1px;
+    font-family:openSansSemiBold;
 }
 
 .asideCategory__list ul li a:hover {
@@ -77,6 +79,7 @@ aside {}
     font-size: 16px;
     text-transform: uppercase;
     color: white;
+    font-family:openSansRegular;
 }
 
 .asideBestSeller__list {
@@ -91,4 +94,5 @@ aside {}
     padding-bottom: 15px;
     border-bottom: 1px solid black;
     margin-bottom: 15px;
+    font-family:openSansBold ;
 }

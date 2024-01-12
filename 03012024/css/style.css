@@ -13,3 +13,23 @@ body{
 .row{
     display: flex;
 }
+@font-face{
+    font-family:arialMT;
+    src: url(../font/ARIALMT.ttf);
+}
+@font-face {
+    font-family:openSansBold ;
+    src: url('../font/open-sans.bold.ttf');
+}
+@font-face {
+    font-family:openSansExtraBold ;
+    src: url('../font/open-sans.extrabold.ttf');
+}
+@font-face {
+    font-family:openSansSemiBold;
+    src: url('../font/open-sans.semibold.ttf');
+}
+@font-face {
+    font-family:openSansRegular ;
+    src: url(../font/open-sans.regular.ttf);
+}
